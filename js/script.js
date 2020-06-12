@@ -9,8 +9,8 @@ var cognome = prompt("inserisci il tuo cognome:");
 var colore = prompt("inserisci il tuo colore preferito:");
 
 // calcolo password
-var password =nome + cognome + colore;
+var password = nome + cognome + colore + 19;
 
-// scriverE sulla pagina nomecognomecolorepreferito19
+// scrivere sulla pagina nomecognomecolorepreferito19
 
-document.getElementById('psw').innerHTML = "La tua nuova password generata: " + password + 19;
+document.getElementById('psw').innerHTML = "La tua nuova password generata: " + password;
